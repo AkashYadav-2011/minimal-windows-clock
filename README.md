@@ -10,5 +10,21 @@ A lightweight, clean, transparent desktop clock for Windows built with Python an
 
 ## Requirements
 Make sure you have Python installed along with the required libraries:
-```bash
+
 pip install pystray pillow
+
+## Step-by-Step: Pin Your .pyw Clock Overlay
+
+- **1. Create a new shortcut: Right-click empty space on your desktop, hover over New, and select Shortcut.
+- **2. Enter the Target path: Paste the following path structure into the location box, adjusting it to match where Python and your clock file are located:text
+C:\Windows\System32\cmd.exe /c start /b pythonw.exe "C:\Path\To\Your\clockoverlay.pyw"
+Use code with caution.
+(Note: Prepending cmd.exe /c start /b ensures it starts completely silently in the background using pythonw.exe, hiding any trailing command prompt windows).
+- **3. Name the shortcut: Type Clock Overlay (or your preferred name) and click Finish.
+- **4. Give it an icon (Optional):
+	• Right-click your new desktop shortcut and select Properties.
+	• Click Change Icon....
+	• Browse for a clock icon or select an existing one from Windows' system files, then click OK -> Apply.
+- **5. Pin to taskbar: Right-click your finished desktop shortcut and choose Pin to taskbar.
+- '''bash
+- 
