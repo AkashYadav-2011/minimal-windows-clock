@@ -26,5 +26,3 @@ Use code with caution.
 	• Click Change Icon....
 	• Browse for a clock icon or select an existing one from Windows' system files, then click OK -> Apply.
 5. Pin to taskbar: Right-click your finished desktop shortcut and choose Pin to taskbar.
-- '''bash
-- 
